@@ -1,0 +1,116 @@
+/* Add this CSS to your stylesheet */
+
+/* Task card container */
+.task-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Task title */
+  .task-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Task description */
+  .task-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Completion button */
+  .completion-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the task card container in TaskList component */
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for the task list container */
+  .task-list-container {
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  /* Task.css */
+
+/* Task List Container */
+.task-list-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Task Column */
+  .task-column {
+    flex: 1;
+    margin-right: 20px; /* Adjust the spacing between columns */
+  }
+  
+  .task-column h3 {
+    background-color: #44d8ec; /* Background color for the column header */
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Completed Task Column */
+  .completed-task-column {
+    flex: 1;
+    margin-left: 20px; /* Adjust the spacing between columns */
+  }
+  
+  .completed-task-column h3 {
+    background-color: #43c3e3; /* Background color for the column header */
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Task Cards */
+  .task-card {
+    background-color: #fff; /* Background color for task cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Adjust the spacing between task cards */
+    padding: 10px;
+    list-style: none;
+  }
+  
+  /* Completed Task Cards */
+  .completed-task {
+    background-color: #e0e0e0; /* Background color for completed task cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Adjust the spacing between completed task cards */
+    padding: 10px;
+    list-style: none;
+  }
+  
+  /* Completion Button */
+  .completion-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  /* Hover effect for the completion button */
+  .completion-button:hover {
+    background-color: #0056b3;
+  }
+  

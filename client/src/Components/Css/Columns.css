@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+  }
+  
+  .columns-container {
+    display: flex;
+    flex: 1; /* This makes the table container expand to fill available space */
+    justify-content: space-around; /* Adjust as needed */
+    align-items: stretch; /* This makes the columns stretch vertically to fill the container */
+  }
+
+  .column {
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px auto; /* Auto margin centers the columns horizontally */
+    text-align: center;
+    height: 100%;
+  }
+  
